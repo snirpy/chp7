@@ -51,13 +51,13 @@ def afficher():
     imc = calculer_IMC()
     if imc<18:
         print("Vous êtes trop maigre! Votre IMC = ",imc)
-    elif imc>18 and imc < 25:
+    elif imc>=18 and imc < 25:
         print("Vous êtes Normal.Votre IMC = ",imc)
-    elif imc>25 and imc < 30:
+    elif imc>=25 and imc < 30:
         print("Vous êtes en surpoids.Votre IMC = ",imc)
-    elif imc>30 and imc < 35:
+    elif imc>=30 and imc < 35:
         print("Vous êtes obèse.Votre IMC = ",imc)
-    elif imc>35 :
+    elif imc>=35 :
         print("Vous êtes très obèse.Votre IMC = ",imc)
 
     
